@@ -297,8 +297,8 @@ export default function Home() {
                       <div className="flex flex-row items-center gap-6">
                       <div>
                           <svg className="w-8 h-8 stroke-black dark:stroke-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <rect x="3" y="5" width="18" height="14" rx="2" stroke-width="2" stroke-linecap="round"/>
+                            <path className="stroke-2" d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" strokeLinecap="round" strokeLinejoin="round"/>
+                            <rect className="stroke-2" x="3" y="5" width="18" height="14" rx="2"  strokeLinecap="round"/>
                           </svg>
                         </div>
                       <div>munkhbaatar.b@datadi.mn</div>
@@ -313,7 +313,7 @@ export default function Home() {
                       </div>
                       <div className="flex flex-row items-center gap-6">
                         <div>
-                          <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg"  version="1.0" id="Layer_1" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+                          <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg"  version="1.0" id="Layer_1" viewBox="0 0 64 64" >
                           <g>
                             <path fill="#F76D57" d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16   c0,4.031-2.055,8-4,10.789L32,52.789z"/>
                             <g>

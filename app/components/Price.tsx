@@ -27,7 +27,7 @@ export default function Price(
                             <div className="flex">
                                 <div>
                                     <svg className="w-5 h-5"xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none">
-                                    <path className="stroke-black dark:stroke-white stroke-[2px]" d="M4 12.6111L8.92308 17.5L20 6.5"  stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path className="stroke-black dark:stroke-white stroke-[2px]" d="M4 12.6111L8.92308 17.5L20 6.5"  strokeLinecap="round" strokeLinejoin="round"/>
                                     </svg>
                                 </div>
                                 <div className="font-bold text-lg pl-2 pb-2">{item.title}</div>
@@ -38,7 +38,7 @@ export default function Price(
                                         <div className="flex">
                                             <div>
                                                 <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24" fill="none">
-                                                <path className="stroke-black dark:stroke-white stroke-[2px]" d="M6 12L18 12"  stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path className="stroke-black dark:stroke-white stroke-[2px]" d="M6 12L18 12"  strokeLinecap="round" strokeLinejoin="round"/>
                                                 </svg>
                                             </div>
                                             <div className="pl-2">{item.itemName}</div>
