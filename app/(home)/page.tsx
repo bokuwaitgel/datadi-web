@@ -6,6 +6,7 @@ import { ChevronDown } from 'lucide-react';
 
 import Navbar from "../components/Navbar";
 import Product from "../components/Product";
+import Head from "next/head";
 
 interface ScrollIndicatorProps {
   children: React.ReactNode;
@@ -15,6 +16,7 @@ interface ScrollIndicatorProps {
 export default function Home() {
   
   return (
+  
    <div className="min-h-screen">
       <div className="mx-auto">
           <Navbar /> 

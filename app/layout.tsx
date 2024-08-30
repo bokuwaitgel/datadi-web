@@ -9,13 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "DataDi",
   description: "DataDi website",
-  icons: [
-      {
-        rel: "Icon",
-        href: "/favicon.ico",
-        url: "/favicon.ico",
-      },
-    ],
+  // icons: [
+  //     {
+  //       rel: "Icon",
+  //       href: "/favicon.ico",
+  //       url: "/favicon.ico",
+  //     },
+  //   ],
 };
 
 export default function RootLayout({
