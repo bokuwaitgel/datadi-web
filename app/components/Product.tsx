@@ -30,7 +30,7 @@ export default function Product({logosvg, title, desciption, longDescription}: {
                 </div>
                 </DialogTrigger>
                 
-                <DialogContent className="lg:max-w-screen-lg overflow-y-scroll max-h-screen">
+                <DialogContent className="lg:max-w-screen-lg overflow-y-scroll max-h-screen mt-0">
                     
                         <DialogHeader>
                         
